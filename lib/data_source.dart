@@ -12,15 +12,12 @@ class DataSource {
     'Canada',
     'Belarus',
     'Mongolia',
+    'Sweden',
+    'New Zealand',
+    'Uruguay',
   ];
 
   Future<List<String>> getCountriesFuture() {
     return Future.value(_countries);
-  }
-
-  Stream<String> countriesStream() async* {
-    for (var country in _countries) {
-      yield country;
-    }
   }
 }

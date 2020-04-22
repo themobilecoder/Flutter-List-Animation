@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_list_animation/data_source.dart';
 import 'package:flutter_list_animation/list_item.dart';
 
-class FutureListScreen extends StatelessWidget {
+class ListScreen extends StatelessWidget {
   final DataSource _dataSource = DataSource();
 
   @override
@@ -24,7 +24,7 @@ class FutureListScreen extends StatelessWidget {
                 opacity: animation,
                 child: SlideTransition(
                   position: Tween<Offset>(
-                    begin: Offset(0, 0.2),
+                    begin: Offset(0, 0.3),
                     end: Offset.zero,
                   ).animate(animation),
                   child: ListItem(
