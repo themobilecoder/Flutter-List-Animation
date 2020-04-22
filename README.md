@@ -1,4 +1,4 @@
-# flutter_list_animation
+# Flutter List Animation sample app
 
 Sample app to animate list
 
